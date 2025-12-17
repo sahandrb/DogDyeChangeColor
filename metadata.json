@@ -1,0 +1,8 @@
+{
+  "name": "Pet Glamour AI",
+  "description": "Visualize creative grooming styles for your pet using AI. Upload a photo and describe the change (e.g., dye the tail pink).",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
