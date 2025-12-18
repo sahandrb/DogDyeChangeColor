@@ -35,7 +35,7 @@ export const editPetImage = async (
     const imagePart = await fileToGenerativePart(imageFile);
     
     // Using the specific "nano banana" equivalent model for image tasks
-    const model = 'gemini-2.5-flash-image';
+    const model = 'gemini-2.0-flash-exp';
     
     const response = await ai.models.generateContent({
       model: model,
